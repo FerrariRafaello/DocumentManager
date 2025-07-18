@@ -4,9 +4,13 @@ A simple RESTful API built with Python and Flask to manage documents with proper
 
 **Features**
 - Create, retrieve, update, and delete documents via REST endpoints
+- 
 -Document data stored in-memory with data validation
+
 -Download document details as a text file from the web interface
+
 -Clean, minimalistic HTML frontend for interacting with the API
+
 -Logging for traceability and debugging
 
 ---

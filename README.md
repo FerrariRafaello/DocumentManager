@@ -11,12 +11,13 @@ A simple RESTful API built with Python and Flask to manage documents with proper
   
 ---
 
-**Endpoints**
-Method	Endpoint	Description	Request Body Example
-POST	/documents	Create a new document	{ "number": "123", "creation_date": "2025-07-16", "summary": "My summary" }
-GET	/documents/<number>	Get a document by number	N/A
-PUT	/documents/<number>	Update document summary	{ "summary": "Updated summary" }
-DELETE	/documents/<number>	Delete a document by number	N/A
+| Endpoint        | Method | Description                       |
+|-----------------|--------|---------------------------------|
+| `/documents`    | POST   | Create a new document            |
+| `/documents/<number>` | GET    | Retrieve a document by number   |
+| `/documents/<number>` | PUT    | Update the summary of a document|
+| `/documents/<number>` | DELETE | Delete a document               |
+
 
 ---
 

@@ -8,7 +8,7 @@ A simple RESTful API built with Python and Flask to manage documents with proper
 - Download document details as a text file from the web interface
 - Clean, minimalistic HTML frontend for interacting with the API
 - Logging for traceability and debugging
-- 
+  
 ---
 
 **Endpoints**
